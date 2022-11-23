@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import propsLogo from './assets/props.png'
-import netGalaLogo from './assets/netgala.png'
+import kaijuLogo from './assets/kaiju.png'
 import './App.css'
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
     <div className="App">
       <div>
         <a href="https://vitejs.dev" target="_blank">
-          <img src={netGalaLogo} className="logo" alt="Vite logo" />
+          <img src={kaijuLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank">
           <img src={propsLogo} className="logo react" alt="React logo" />
@@ -47,7 +47,7 @@ function App() {
       </div>
       <h1>{loadText}</h1>
       <p className="read-the-docs">
-        NetGala new-age sports betting - Powered by PoolProps
+        Kaiju Reborn sports betting - Powered by PoolProps
       </p>
     </div>
   )
